@@ -1,5 +1,6 @@
 package com.example.rizwansyed.applayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -80,17 +81,19 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.Oops) {
+        if (id == R.id.collection) {
+            Intent i=new Intent(this,CollectionActivity.class);
+            startActivity(i);
             // Handle the oops action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.exception) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.threading) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.oops) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.lang) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.io) {
 
         }
 
