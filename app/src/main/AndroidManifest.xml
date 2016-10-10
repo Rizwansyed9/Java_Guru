@@ -19,11 +19,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CollectionActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name=".Main2Activity"
             android:label="Collection Framework"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.rizwansyed.applayout.MainActivity" />

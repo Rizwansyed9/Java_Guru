@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.collection) {
-            Intent i=new Intent(this,CollectionActivity.class);
+            Intent i=new Intent(this,Main2Activity.class);
             startActivity(i);
             // Handle the oops action
         } else if (id == R.id.exception) {
